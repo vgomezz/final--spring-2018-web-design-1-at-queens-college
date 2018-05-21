@@ -1,3 +1,290 @@
-body {
-  color: #222;
+
+#container{
+  max-width: 960px;
+
+}
+
+
+.h1{
+  width: 960px;
+  height:350px;
+  display:block;
+  text-align: center;
+ }
+
+ header{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+ }
+
+ .header-img-desktop{
+
+   margin-bottom: -350px;
+   cursor: grab;
+
+ }
+
+ nav{
+   float:right;
+   margin-top: 382px;
+ }
+
+ nav ul{
+   padding:0px;
+   list-style: none;
+   margin-right:-23px;
+ }
+
+ nav li{
+   display: inline-block;
+   margin-left: 15px;
+   margin-right: 26px;
+ }
+
+ nav li a{
+   color: #000000;
+   text-decoration: none;
+   font-size: 16pt;
+ }
+
+ nav a:hover{
+   color: #979797;
+ }
+
+ .container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+
+ body{
+   margin:auto;
+   width:960px;
+ }
+ main{
+   display:block;
+   width:940px;
+   height:820px;
+   align-items: center;
+   margin-top: 470px;
+   margin-left: 20px;
+   margin-right: 20px;
+   font-family: 'Montserrat', sans-serif;
+   line-height: 22px;
+
+ }
+
+ .description-desktop{
+   display:block;
+   width:940px;
+   margin-top: 470px;
+   margin-right: 20px;
+   margin-bottom: 60px;
+   font-family: 'Montserrat', sans-serif;
+   line-height: 22px;
+ }
+
+ .image-one-desktop{
+   width: 300px;
+   height: 400px;
+   padding-right:20px;
+   padding-bottom: 20px;
+   cursor: grab;
+ }
+
+ .image-two-desktop{
+   width: 300px;
+   height: 400px;
+   padding-bottom:20px;
+   cursor: grab;
+ }
+
+ .image-three-desktop{
+   width: 300px;
+   height: 400px;
+   padding-left:20px;
+   padding-bottom: 20px;
+   cursor: grab;
+ }
+
+ .image-four-desktop{
+   width: 300px;
+   height: 400px;
+   padding-right:20px;
+   cursor: grab;
+   margin-bottom: 60px;
+ }
+
+ .image-five-desktop{
+   width: 300px;
+   height: 400px;
+   padding-bottom:20px;
+   cursor: grab;
+   margin-bottom: 60px;
+ }
+
+ .image-six-desktop{
+   width: 300px;
+   height: 400px;
+   padding-left:20px;
+   padding-bottom: 20px;
+   cursor: grab;
+   margin-bottom: 60px;
+ }
+
+ .workone{
+    margin-top: 398px;
+    margin-right: 116px;
+    margin-bottom: 432px;
+    margin-left: 842px;
+    padding-right: 81px;
+ }
+
+ /*mailerpage*/
+
+ .image-one-desktop-mailer{
+   width: 460px;
+   height: 614px;
+   margin-right: 20px;
+ }
+
+ .image-one-desktop-mailer-second{
+   width:460px;
+   height:614px;
+  }
+
+  .h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  p{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-decoration: none;
+    font-size: 12pt;
+  }
+  /*aboutpage*/
+
+  .image-about-desktop{
+  }
+
+  .aboutme{
+    margin-left: 60px;
+    width: 420px;
+  }
+  .h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-decoration: none;
+    font-size: 16pt;
+  }
+
+  /*logopage*/
+
+  .image-four-logo-desktop{
+    width: 300px;
+    height: 400px;
+    padding-right:20px;
+    padding-bottom: 20px;
+    cursor: grab;
+  }
+
+  .image-four-logo-second{
+    width: 300px;
+    height: 400px;
+    padding-bottom:20px;
+    cursor: grab;
+  }
+  .image-four-logo-third{
+    width: 300px;
+    height: 400px;
+    padding-left:20px;
+    padding-bottom: 60px;
+    cursor: grab;
+  }
+
+  .image-four-logo-fourth{
+    width: 300px;
+    height: 400px;
+    padding-right:20px;
+    padding-bottom: 60px;
+  }
+
+  .image-four-logo-fifth{
+    width: 300px;
+    height: 400px;
+    padding-bottom:60px;
+  }
+
+  .image-four-logo-six{
+    width: 300px;
+    height: 400px;
+    padding-left:20px;
+    padding-bottom: 20px;
+  }
+
+  /*digitalpage*/
+
+  .image-five-digital-first{
+    width: 460px;
+    height: 614px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .image-five-digital-second{
+    width:460px;
+    height:614px;
+    margin-bottom: 20px;
+  }
+
+  .image-five-digital-third{
+    width: 460px;
+    height: 700px;
+    margin-right: 20px;
+  }
+
+  .image-five-digital-fourth{
+    width:460px;
+    height:614px;
+  }
+
+/*packagingpage*/
+
+.image-six-packaging-first{
+  width:940px;
+  height: 740px;
+  margin-bottom: 20px;
+}
+
+.image-six-packaging-second{
+  width:460px;
+  height:515px;
+  margin-right: 20px;
+  margin-bottom: 60px;
+}
+
+.image-six-packaging-third{
+  width:460px;
+  height:515px;
+  margin-bottom: 60px;
+
+}
+
+/*posterpage*/
+
+.image-three-poster-second{
+  width:460px;
+  height:595px;
+  margin-right:20px;
+  margin-bottom: 60px;
+
+}
+
+.image-three-poster{
+  width:460px;
+  height:595px;
+  margin-bottom: 60px;
 }
